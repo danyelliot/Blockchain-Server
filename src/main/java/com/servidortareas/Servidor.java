@@ -17,7 +17,7 @@ public class Servidor {
   BlockingQueue<String> responseQueue = new LinkedBlockingQueue<String>();
 
   int number_zeros = VariablesConexion.N_ZEROS;
-  // Create list of strings
+  
   List<String> words = new ArrayList<String>();
 
   List<Double> timesInSec = new ArrayList<Double>();
